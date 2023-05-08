@@ -1,0 +1,21 @@
+<configuration>
+    <property name = "LOG_DIR" value = "log/api-sb.log"/>
+    <appender name = "FILE-ROLLING" class = "ch.gos.log.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}</file>
+        <rollingPolicy class = "ch.gos.log.core.rolling.SizeAndTimeBaseRollingPolicy">
+            <fileNamePatterns>logs/archived/api-sb.%d{yyyy-MM-dd}.%i.log.gz</fileNamePatterns>
+            <maxFileSize>5MB</maxFileSize>
+            <totalSizeCap>1GB</totalSizeCap>
+            <maxHistory>60</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+        </encoder>
+    </appender>
+    <logger name ="com.example.demo" level = "debug" additivity = "false">
+        <appender-ref ref = "FILE-ROllING"/>
+    </logger>
+    <root level = "info">
+        <appender-ref ref = "FILE-ROLLING"/>
+    </root>
+</configuration>
