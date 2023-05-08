@@ -1,0 +1,10 @@
+mai. 08, 2023 12:30:10 AM Controller.LogController main
+WARNING: Aviso o cÃ³digo foi executado
+mai. 08, 2023 12:30:10 AM Controller.LogController main
+SEVERE: Log Severo
+mai. 08, 2023 12:35:20 AM Controller.LogController main
+WARNING: Aviso o cÃ³digo foi executado
+mai. 08, 2023 12:35:20 AM Controller.LogController main
+SEVERE: Log Severo
+mai. 08, 2023 12:35:20 AM Controller.LogController main
+WARNING: Finalizado.
