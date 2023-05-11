@@ -1,0 +1,6 @@
+mai. 11, 2023 6:13:46 PM academiaJava.Log.main main
+INFO: Log de informação
+mai. 11, 2023 6:13:46 PM academiaJava.Log.main main
+WARNING: Log de Aviso
+mai. 11, 2023 6:13:46 PM academiaJava.Log.main main
+SEVERE: Log Severo

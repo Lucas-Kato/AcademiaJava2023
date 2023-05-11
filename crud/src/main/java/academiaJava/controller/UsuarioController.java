@@ -1,8 +1,10 @@
 package academiaJava.controller;
 
+import academiaJava.domain.DadosAtualizacaoUsuario;
+import academiaJava.domain.DadosCadastroUsuario;
+import academiaJava.domain.DadosListagemUsuario;
 import academiaJava.domain.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
