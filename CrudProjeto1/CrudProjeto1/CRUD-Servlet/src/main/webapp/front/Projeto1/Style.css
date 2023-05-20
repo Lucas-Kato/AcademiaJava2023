@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+    margin: 0%;
+
+}
+
+body {
+    background-color: #ffff;
+    background-image: url(./Assets/LogoEditada.png);
+    background-repeat: no-repeat;
+    background-position: 130% 1%;
+    background-clip: border-box;
+}
+
+.cabecalho {
+    padding: 0.5% 0% 1% 2%;
+    background-color: #0596FF;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: left;
+    gap: 3%;
+    padding-top: 0.5%;
+}
+
+.botao_home {
+    height: 41px;
+    width: 41px;
+}
+
+.botao_adicionar {
+    height: 41px;
+    width: 41px;
+}
+
+.botao_consultarbanco {
+    height: 41px;
+    width: 41px;
+    padding-top: 5px;
+
+
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 20%;
+}
+
+p {
+    font-family: Raleway;
+    color: black;
+    font-weight: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 10%;
+    font-size: 48px;
+    color: #0596FF;
+}
+
+h2 {
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 3%;
+    font-size: 24px;
+    color: black;
+}
+
+.redirecionar {
+    width: 250px;
+    height: 60px;
+    border-radius: 24px;
+    background-color: #0596FF;
+    position: absolute;
+    right: 70%;
+
+    margin: 5% 0 0 0;
+}
+
+.inserir2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    font-family: Raleway;
+}
+
+.botao_consultar2 {
+    width: 250px;
+    height: 60px;
+    border-radius: 24px;
+    background-color: #0596FF;
+    position: absolute;
+    left: 70%;
+    margin: 5% 0 0 0;
+
+}
+
+.consultar2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+    font-family: Raleway;
+}
